@@ -1,7 +1,9 @@
 ## AES-256-CBC key based encryption and decryption in PHP
 
 ```sh
-include 'Cipher.php';
+composer require soumik/libcipher
+
+require_once __DIR__ . "/vendor/autoload.php";
 use libcipher\src as lib;
 
 lib\Cipher::encrypt("Your text", "Random key 1st pair", "Random key 2nd pair");
