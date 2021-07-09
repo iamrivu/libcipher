@@ -2,7 +2,7 @@
     "name": "soumik/libcipher",
     "description": "AES-256-CBC key based encryption and decryption",
     "type": "library",
-    "license": "GNU GENERAL PUBLIC LICENSE",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Soumik Bhattacharya",
