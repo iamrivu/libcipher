@@ -1,0 +1,18 @@
+{
+    "name": "soumik/libcipher",
+    "description": "AES-256-CBC key based encryption and decryption",
+    "type": "library",
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "Soumik Bhattacharya",
+            "email": "beingrivu@aol.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "libcipher\\src\\": "src/"
+        }
+    },
+    "require": {}
+}
